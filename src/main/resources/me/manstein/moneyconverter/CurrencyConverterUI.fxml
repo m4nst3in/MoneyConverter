@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="me.manstein.moneyconverter.CurrencyConverterUI"
+           prefHeight="400.0" prefWidth="600.0">
+    <stylesheets>
+        <URL value="@styles.css"/>
+    </stylesheets>
+    <children>
+        <VBox spacing="10.0" styleClass="container">
+            <children>
+                <Label text="Digite o valor:" styleClass="label" />
+                <TextField fx:id="amountTextField" promptText="Digite o valor a ser convertido" prefWidth="250.0" />
+                <HBox spacing="10.0">
+                    <children>
+                        <ComboBox fx:id="fromCurrencyComboBox" prefWidth="250.0" promptText="De" styleClass="currency-button" />
+                        <ComboBox fx:id="toCurrencyComboBox" prefWidth="250.0" promptText="Para" styleClass="currency-button" />
+                    </children>
+                </HBox>
+                <Button fx:id="convertButton" text="Converter" styleClass="convert-button" />
+                <Label fx:id="resultLabel" prefWidth="400.0" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</StackPane>
