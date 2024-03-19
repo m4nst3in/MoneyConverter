@@ -1,21 +1,21 @@
 .container {
-    -fx-background-color: #0F1A2B; /* Cor de fundo azul bem escuro */
+    -fx-background-color: #0F1A2B;
     -fx-padding: 20px;
     -fx-spacing: 10px;
 }
 
 .label {
     -fx-font-size: 14px;
-    -fx-text-fill: #FFFFFF; /* Cor do texto branco */
+    -fx-text-fill: #FFFFFF;
 }
 
 .text-field {
-    -fx-prompt-text-fill: #CCCCCC; /* Cor do texto de prompt mais clara */
-    -fx-background-color: #FFFFFF; /* Cor de fundo do TextField branco */
+    -fx-prompt-text-fill: #CCCCCC;
+    -fx-background-color: #FFFFFF;
 }
 
 .convert-button {
-    -fx-background-color: #4CAF50; /* Cor verde */
+    -fx-background-color: #4CAF50;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-padding: 8px 16px;
@@ -27,17 +27,17 @@
 }
 
 .currency-button {
-    -fx-background-color: white; /* Cor branca */
-    -fx-text-fill: black; /* Cor do texto preto */
-    -fx-border-color: #2196F3; /* Cor da borda azul */
-    -fx-border-width: 3px; /* Largura da borda aumentada */
-    -fx-border-radius: 0px; /* Remove o arredondamento da borda */
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #2196F3;
+    -fx-border-width: 3px;
+    -fx-border-radius: 0px;
     -fx-font-size: 14px;
-    -fx-pref-height: 40px; /* Altura do botão */
+    -fx-pref-height: 40px;
 }
 
 .currency-button:hover {
-    -fx-border-color: #2196F3; /* Cor da borda azul ao passar o mouse */
+    -fx-border-color: #2196F3;
 }
 
 .currency-button .arrow-button {
@@ -51,22 +51,22 @@
 }
 
 .currency-button .arrow-button .arrow:hover {
-    -fx-background-color: transparent; /* Cor transparente ao passar o mouse sobre a seta */
+    -fx-background-color: transparent;
 }
 
 .currency-button .arrow-button:hover {
-    -fx-background-color: white; /* Cor branca ao passar o mouse sobre a seta */
+    -fx-background-color: white;
 }
 
 .currency-button .arrow-button:hover .arrow {
-    -fx-background-color: transparent; /* Cor transparente ao passar o mouse sobre a seta */
+    -fx-background-color: transparent;
 }
 
 .currency-button .arrow-button:pressed {
-    -fx-background-color: white; /* Cor branca ao clicar */
+    -fx-background-color: white;
 }
 
 .result-label {
     -fx-font-size: 16px;
-    -fx-text-fill: #FFFFFF; /* Cor do texto branco */
+    -fx-text-fill: #FFFFFF;
 }
